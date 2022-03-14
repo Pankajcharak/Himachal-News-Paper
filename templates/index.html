@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<body>
+<form method="post">
+    {% csrf_token %}
+   <input type="text" name='name'>
+
+    <button type="submit">submit</button>
+
+</form>
+{% load static %}
+<img src="{{ d|safe }}" width="100%" height="100%" alt="Page 1">
+<img src="{{ q|safe }}" width="100%" height="100%" alt="Page 2">
+<img src="{{ r|safe }}" width="100%" height="100%" alt="My image">
+<img src="{{ s|safe }}" width="100%" height="100%" alt="My image">
+<img src="{{ t|safe }}" width="100%" height="100%" alt="My image">
+<img src="{{ u|safe }}" width="100%" height="100%" alt="My image">
+<img src="{{ v|safe }}" width="100%" height="100%" alt="My image">
+<img src="{{ w|safe }}" width="100%" height="100%" alt="My image">
+<img src="{{ x|safe }}" width="100%" height="100%" alt="My image">
+<img src="{{ y|safe }}" width="100%" height="100%" alt="My image">
+<img src="{{ z|safe }}" width="100%" height="100%" alt="My image">
+<img src="{{ a|safe }}" width="100%" height="100%" alt="My image">
+<img src="{{ b|safe }}" width="100%" height="100%" alt="My image">
+<img src="{{ c|safe }}" width="100%" height="100%" alt="My image">
+
+</body>
+</html>
